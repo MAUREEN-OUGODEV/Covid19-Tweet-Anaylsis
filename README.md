@@ -32,7 +32,10 @@ pip install -r requirements.txt
 
 
 ## Data Collection
-The data collection process involves fetching tweets using the Twitter API.
+The data collection process involves finding a good dataset in :
+```
+https://www.kaggle.com/.
+```
 
 ### Steps:
 
@@ -46,7 +49,7 @@ Preprocess the collected tweets to prepare for analysis.
    data = pd.read_csv('covid19_tweets.csv')
    ```
 
-2. **Clean tweets:**
+3. **Clean tweets:**
    - Remove URLs, mentions, hashtags, and special characters.
    - Convert text to lowercase.
    - Remove stopwords using NLTK.
@@ -65,8 +68,6 @@ Visualize the results to better understand the data.
 
 ### Steps:
 1. **Word Cloud:**
-   
-
 2. **Sentiment Distribution:**
    
 

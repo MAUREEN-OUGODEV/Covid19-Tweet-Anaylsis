@@ -43,7 +43,7 @@ Preprocess the collected tweets to prepare for analysis.
 ### Steps:
 1. **Load data:**
    ```python
-   df = pd.read_csv('covid19_tweets.csv')
+   data = pd.read_csv('covid19_tweets.csv')
    ```
 
 2. **Clean tweets:**

@@ -16,7 +16,6 @@ This project involves analyzing tweets related to COVID-19. The objective is to 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 - Python 3.6 or later
-- Twitter API credentials (API key, API secret key, Access token, and Access token secret)
 - Required Python packages (listed in `requirements.txt`)
 
 ### Required Python Packages
